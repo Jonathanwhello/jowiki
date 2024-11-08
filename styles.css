@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(1122.jpg);
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(100, 250, 100);
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+header span {
+    color: yellow;
+}
+
+.content span:hover {
+    color: yellow;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header ul {
+    text-align: center;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 30px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+header ul li a:hover {
+    background-color: green;
+}
+
+.content {
+    background-color: gray;
+    padding: 40px;
+    margin: 40px 10%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1) ;
+}
+
+.content span {
+    color: white;
+    font-size: large;
+}
+
+.main-content {
+    background-color: gray;
+    padding: 40px;
+    margin: 40px 10%;
+}
+
+.main-content h4 {
+    font-size: larger;
+}
+
+.main-content span {
+    color: white;
+}
+
+footer {
+    background-color: rgb(100, 250, 100);
+    padding: 20px;
+    box-shadow:  0 3px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+footer img {
+    width: 80px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+}
+
+
+footer img:hover {
+    transform: scale(1.40);
+    box-shadow: 10px 10px 10px ;
+}
+
+footer h5:hover {
+    transform: scale(1.30);
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        width: 100%;
+    }
+
+    .main-content h4 {
+        font-size: small;
+        right: 30px;
+    }
+}
